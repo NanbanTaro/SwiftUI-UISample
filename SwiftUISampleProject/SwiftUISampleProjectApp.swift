@@ -12,7 +12,7 @@ import SwiftUI
 struct SwiftUISampleProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SampleListView()
         }
     }
 }
