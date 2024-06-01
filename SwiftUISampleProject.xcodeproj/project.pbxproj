@@ -18,13 +18,14 @@
 		9065A5B52B258BB200E34C10 /* SwiftUISampleProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065A5B42B258BB200E34C10 /* SwiftUISampleProjectUITestsLaunchTests.swift */; };
 		906A83AB2BE0DB5500F09ACE /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A83AA2BE0DB5500F09ACE /* BackgroundView.swift */; };
 		906A83AD2BE0DB8F00F09ACE /* Background1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A83AC2BE0DB8F00F09ACE /* Background1View.swift */; };
-		906A83AF2BE0E9ED00F09ACE /* CalouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A83AE2BE0E9ED00F09ACE /* CalouselModel.swift */; };
+		906A83AF2BE0E9ED00F09ACE /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A83AE2BE0E9ED00F09ACE /* CarouselModel.swift */; };
 		906A83B12BE1E16700F09ACE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A83B02BE1E16700F09ACE /* ImageView.swift */; };
+		90C1709E2C0B0AC7007F3BEC /* SampleViewBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C1709D2C0B0AC7007F3BEC /* SampleViewBuilderView.swift */; };
 		90FA71D22B5C87FB00967686 /* APIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA71D12B5C87FB00967686 /* APIView.swift */; };
 		90FA71D42B5C893600967686 /* AdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA71D32B5C893600967686 /* AdviceModel.swift */; };
 		90FA71D72B5C898600967686 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 90FA71D62B5C898600967686 /* Alamofire */; };
 		90FA71D92B5C8AF100967686 /* APIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA71D82B5C8AF100967686 /* APIViewModel.swift */; };
-		90FA71DC2BA2919B00967686 /* CalouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA71DB2BA2919B00967686 /* CalouselView.swift */; };
+		90FA71DC2BA2919B00967686 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA71DB2BA2919B00967686 /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,12 +60,13 @@
 		9065A5B42B258BB200E34C10 /* SwiftUISampleProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		906A83AA2BE0DB5500F09ACE /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		906A83AC2BE0DB8F00F09ACE /* Background1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background1View.swift; sourceTree = "<group>"; };
-		906A83AE2BE0E9ED00F09ACE /* CalouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalouselModel.swift; sourceTree = "<group>"; };
+		906A83AE2BE0E9ED00F09ACE /* CarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
 		906A83B02BE1E16700F09ACE /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		90C1709D2C0B0AC7007F3BEC /* SampleViewBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewBuilderView.swift; sourceTree = "<group>"; };
 		90FA71D12B5C87FB00967686 /* APIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIView.swift; sourceTree = "<group>"; };
 		90FA71D32B5C893600967686 /* AdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceModel.swift; sourceTree = "<group>"; };
 		90FA71D82B5C8AF100967686 /* APIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIViewModel.swift; sourceTree = "<group>"; };
-		90FA71DB2BA2919B00967686 /* CalouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalouselView.swift; sourceTree = "<group>"; };
+		90FA71DB2BA2919B00967686 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				906A83A72BE0DB2800F09ACE /* Background */,
 				90FA71DA2BA2916C00967686 /* Calousel */,
 				906A83B32BE4710600F09ACE /* Image */,
+				90C1709C2C0B0AB7007F3BEC /* ViewBuilder */,
 			);
 			path = ViewSample;
 			sourceTree = "<group>";
@@ -186,6 +189,14 @@
 				906A83B02BE1E16700F09ACE /* ImageView.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		90C1709C2C0B0AB7007F3BEC /* ViewBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				90C1709D2C0B0AC7007F3BEC /* SampleViewBuilderView.swift */,
+			);
+			path = ViewBuilder;
 			sourceTree = "<group>";
 		};
 		90FA71CF2B5C87E200967686 /* API */ = {
@@ -209,8 +220,8 @@
 		90FA71DA2BA2916C00967686 /* Calousel */ = {
 			isa = PBXGroup;
 			children = (
-				90FA71DB2BA2919B00967686 /* CalouselView.swift */,
-				906A83AE2BE0E9ED00F09ACE /* CalouselModel.swift */,
+				90FA71DB2BA2919B00967686 /* CarouselView.swift */,
+				906A83AE2BE0E9ED00F09ACE /* CarouselModel.swift */,
 			);
 			path = Calousel;
 			sourceTree = "<group>";
@@ -354,15 +365,16 @@
 				906A83B12BE1E16700F09ACE /* ImageView.swift in Sources */,
 				906A83AD2BE0DB8F00F09ACE /* Background1View.swift in Sources */,
 				906A83AB2BE0DB5500F09ACE /* BackgroundView.swift in Sources */,
-				90FA71DC2BA2919B00967686 /* CalouselView.swift in Sources */,
+				90FA71DC2BA2919B00967686 /* CarouselView.swift in Sources */,
 				901D13FB2B384233005679AB /* CameraView.swift in Sources */,
 				901D13FE2B38440E005679AB /* CameraPreview.swift in Sources */,
 				90FA71D22B5C87FB00967686 /* APIView.swift in Sources */,
+				90C1709E2C0B0AC7007F3BEC /* SampleViewBuilderView.swift in Sources */,
 				9065A59A2B258BB100E34C10 /* SampleListView.swift in Sources */,
 				9065A5982B258BB100E34C10 /* SwiftUISampleProjectApp.swift in Sources */,
 				90FA71D42B5C893600967686 /* AdviceModel.swift in Sources */,
 				90FA71D92B5C8AF100967686 /* APIViewModel.swift in Sources */,
-				906A83AF2BE0E9ED00F09ACE /* CalouselModel.swift in Sources */,
+				906A83AF2BE0E9ED00F09ACE /* CarouselModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

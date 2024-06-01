@@ -19,7 +19,13 @@ struct SampleListView: View {
                     APIView()
                 }
                 NavigationLink("カルーセル") {
-                    CalouselView()
+                    CarouselView()
+                }
+                NavigationLink("イメージ") {
+                    ImageView()
+                }
+                NavigationLink("ViewBuilder") {
+                    SampleViewBuilderView()
                 }
             }
         }

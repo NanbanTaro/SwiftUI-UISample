@@ -1,5 +1,5 @@
 //
-//  CalouselModel.swift
+//  CarouselModel.swift
 //  SwiftUISampleProject
 //
 //  Created by NanbanTaro on 2024/04/30.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct CalouselModel: Identifiable {
+struct CarouselModel: Identifiable {
     let id = UUID()
     let title: String
     let message: String

@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+/// グラデーション
 struct Background1View: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 8)
