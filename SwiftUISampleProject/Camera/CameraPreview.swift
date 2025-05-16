@@ -10,16 +10,16 @@ import SwiftUI
 
 struct CameraPreview: UIViewRepresentable {
 
-    private var camerePreviewViewModel: CamerePreviewViewModel
+    private var cameraPreviewViewModel: CameraPreviewViewModel
 
-    init(camerePreviewViewModel: CamerePreviewViewModel) {
-        self.camerePreviewViewModel = camerePreviewViewModel
+    init(cameraPreviewViewModel: CameraPreviewViewModel) {
+        self.cameraPreviewViewModel = cameraPreviewViewModel
     }
 
     public func makeUIView(context: Context) -> some UIView {
-        let cameraView = self.camerePreviewViewModel.previewView
+        let cameraView = self.cameraPreviewViewModel.previewView
         cameraView.frame = UIScreen.main.bounds
-        self.camerePreviewViewModel.launchCamera()
+        self.cameraPreviewViewModel.launchCamera()
 
         return cameraView
     }
@@ -28,9 +28,10 @@ struct CameraPreview: UIViewRepresentable {
     }
 }
 
-import AVKit
+@preconcurrency import AVKit
 
-class CamerePreviewViewModel: ObservableObject {
+@MainActor
+class CameraPreviewViewModel: ObservableObject {
 
     var previewView: UIView = UIView()
 
@@ -64,7 +65,7 @@ class CamerePreviewViewModel: ObservableObject {
 
         let videoPreviewLayer = AVCaptureVideoPreviewLayer(session: session)
         videoPreviewLayer.videoGravity = .resizeAspectFill
-        videoPreviewLayer.connection?.videoOrientation = .portrait
+        videoPreviewLayer.connection?.videoRotationAngle = .pi / 2.0
         videoPreviewLayer.frame = previewView.bounds
 
 

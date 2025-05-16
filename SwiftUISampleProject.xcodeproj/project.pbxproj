@@ -3,30 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		901D13FB2B384233005679AB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D13FA2B384233005679AB /* CameraView.swift */; };
-		901D13FE2B38440E005679AB /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D13FD2B38440E005679AB /* CameraPreview.swift */; };
-		9065A5982B258BB100E34C10 /* SwiftUISampleProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065A5972B258BB100E34C10 /* SwiftUISampleProjectApp.swift */; };
-		9065A59A2B258BB100E34C10 /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065A5992B258BB100E34C10 /* SampleListView.swift */; };
-		9065A59C2B258BB200E34C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9065A59B2B258BB200E34C10 /* Assets.xcassets */; };
-		9065A59F2B258BB200E34C10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9065A59E2B258BB200E34C10 /* Preview Assets.xcassets */; };
 		9065A5A92B258BB200E34C10 /* SwiftUISampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065A5A82B258BB200E34C10 /* SwiftUISampleProjectTests.swift */; };
 		9065A5B32B258BB200E34C10 /* SwiftUISampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065A5B22B258BB200E34C10 /* SwiftUISampleProjectUITests.swift */; };
 		9065A5B52B258BB200E34C10 /* SwiftUISampleProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9065A5B42B258BB200E34C10 /* SwiftUISampleProjectUITestsLaunchTests.swift */; };
-		906A83AB2BE0DB5500F09ACE /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A83AA2BE0DB5500F09ACE /* BackgroundView.swift */; };
-		906A83AD2BE0DB8F00F09ACE /* Background1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A83AC2BE0DB8F00F09ACE /* Background1View.swift */; };
-		906A83AF2BE0E9ED00F09ACE /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A83AE2BE0E9ED00F09ACE /* CarouselModel.swift */; };
-		906A83B12BE1E16700F09ACE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A83B02BE1E16700F09ACE /* ImageView.swift */; };
-		90C1709E2C0B0AC7007F3BEC /* SampleViewBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C1709D2C0B0AC7007F3BEC /* SampleViewBuilderView.swift */; };
-		90C170A12C0C053E007F3BEC /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C170A02C0C053E007F3BEC /* LayoutView.swift */; };
-		90FA71D22B5C87FB00967686 /* APIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA71D12B5C87FB00967686 /* APIView.swift */; };
-		90FA71D42B5C893600967686 /* AdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA71D32B5C893600967686 /* AdviceModel.swift */; };
 		90FA71D72B5C898600967686 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 90FA71D62B5C898600967686 /* Alamofire */; };
-		90FA71D92B5C8AF100967686 /* APIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA71D82B5C8AF100967686 /* APIViewModel.swift */; };
-		90FA71DC2BA2919B00967686 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA71DB2BA2919B00967686 /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,29 +31,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		901D13FA2B384233005679AB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		901D13FD2B38440E005679AB /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
 		9065A5942B258BB100E34C10 /* SwiftUISampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9065A5972B258BB100E34C10 /* SwiftUISampleProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleProjectApp.swift; sourceTree = "<group>"; };
-		9065A5992B258BB100E34C10 /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
-		9065A59B2B258BB200E34C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9065A59E2B258BB200E34C10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9065A5A42B258BB200E34C10 /* SwiftUISampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9065A5A82B258BB200E34C10 /* SwiftUISampleProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleProjectTests.swift; sourceTree = "<group>"; };
 		9065A5AE2B258BB200E34C10 /* SwiftUISampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9065A5B22B258BB200E34C10 /* SwiftUISampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleProjectUITests.swift; sourceTree = "<group>"; };
 		9065A5B42B258BB200E34C10 /* SwiftUISampleProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		906A83AA2BE0DB5500F09ACE /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
-		906A83AC2BE0DB8F00F09ACE /* Background1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background1View.swift; sourceTree = "<group>"; };
-		906A83AE2BE0E9ED00F09ACE /* CarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
-		906A83B02BE1E16700F09ACE /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		90C1709D2C0B0AC7007F3BEC /* SampleViewBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewBuilderView.swift; sourceTree = "<group>"; };
-		90C170A02C0C053E007F3BEC /* LayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutView.swift; sourceTree = "<group>"; };
-		90FA71D12B5C87FB00967686 /* APIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIView.swift; sourceTree = "<group>"; };
-		90FA71D32B5C893600967686 /* AdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceModel.swift; sourceTree = "<group>"; };
-		90FA71D82B5C8AF100967686 /* APIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIViewModel.swift; sourceTree = "<group>"; };
-		90FA71DB2BA2919B00967686 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		90128C722DD58D14009AE7DD /* SwiftUISampleProject */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SwiftUISampleProject; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9065A5912B258BB100E34C10 /* Frameworks */ = {
@@ -97,19 +69,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		901D13FC2B384297005679AB /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				901D13FA2B384233005679AB /* CameraView.swift */,
-				901D13FD2B38440E005679AB /* CameraPreview.swift */,
-			);
-			path = Camera;
-			sourceTree = "<group>";
-		};
 		9065A58B2B258BB100E34C10 = {
 			isa = PBXGroup;
 			children = (
-				9065A5962B258BB100E34C10 /* SwiftUISampleProject */,
+				90128C722DD58D14009AE7DD /* SwiftUISampleProject */,
 				9065A5A72B258BB200E34C10 /* SwiftUISampleProjectTests */,
 				9065A5B12B258BB200E34C10 /* SwiftUISampleProjectUITests */,
 				9065A5952B258BB100E34C10 /* Products */,
@@ -124,28 +87,6 @@
 				9065A5AE2B258BB200E34C10 /* SwiftUISampleProjectUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9065A5962B258BB100E34C10 /* SwiftUISampleProject */ = {
-			isa = PBXGroup;
-			children = (
-				9065A5972B258BB100E34C10 /* SwiftUISampleProjectApp.swift */,
-				9065A5992B258BB100E34C10 /* SampleListView.swift */,
-				90FA71CF2B5C87E200967686 /* API */,
-				906A83A62BE0DB0D00F09ACE /* ViewSample */,
-				901D13FC2B384297005679AB /* Camera */,
-				9065A59B2B258BB200E34C10 /* Assets.xcassets */,
-				9065A59D2B258BB200E34C10 /* Preview Content */,
-			);
-			path = SwiftUISampleProject;
-			sourceTree = "<group>";
-		};
-		9065A59D2B258BB200E34C10 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9065A59E2B258BB200E34C10 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		9065A5A72B258BB200E34C10 /* SwiftUISampleProjectTests */ = {
@@ -165,78 +106,6 @@
 			path = SwiftUISampleProjectUITests;
 			sourceTree = "<group>";
 		};
-		906A83A62BE0DB0D00F09ACE /* ViewSample */ = {
-			isa = PBXGroup;
-			children = (
-				906A83A72BE0DB2800F09ACE /* Background */,
-				90FA71DA2BA2916C00967686 /* Calousel */,
-				906A83B32BE4710600F09ACE /* Image */,
-				90C1709F2C0C0522007F3BEC /* Layout */,
-				90C1709C2C0B0AB7007F3BEC /* ViewBuilder */,
-			);
-			path = ViewSample;
-			sourceTree = "<group>";
-		};
-		906A83A72BE0DB2800F09ACE /* Background */ = {
-			isa = PBXGroup;
-			children = (
-				906A83AA2BE0DB5500F09ACE /* BackgroundView.swift */,
-				906A83AC2BE0DB8F00F09ACE /* Background1View.swift */,
-			);
-			path = Background;
-			sourceTree = "<group>";
-		};
-		906A83B32BE4710600F09ACE /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				906A83B02BE1E16700F09ACE /* ImageView.swift */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		90C1709C2C0B0AB7007F3BEC /* ViewBuilder */ = {
-			isa = PBXGroup;
-			children = (
-				90C1709D2C0B0AC7007F3BEC /* SampleViewBuilderView.swift */,
-			);
-			path = ViewBuilder;
-			sourceTree = "<group>";
-		};
-		90C1709F2C0C0522007F3BEC /* Layout */ = {
-			isa = PBXGroup;
-			children = (
-				90C170A02C0C053E007F3BEC /* LayoutView.swift */,
-			);
-			path = Layout;
-			sourceTree = "<group>";
-		};
-		90FA71CF2B5C87E200967686 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				90FA71D02B5C87E800967686 /* Model */,
-				90FA71D12B5C87FB00967686 /* APIView.swift */,
-				90FA71D82B5C8AF100967686 /* APIViewModel.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		90FA71D02B5C87E800967686 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				90FA71D32B5C893600967686 /* AdviceModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		90FA71DA2BA2916C00967686 /* Calousel */ = {
-			isa = PBXGroup;
-			children = (
-				90FA71DB2BA2919B00967686 /* CarouselView.swift */,
-				906A83AE2BE0E9ED00F09ACE /* CarouselModel.swift */,
-			);
-			path = Calousel;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,6 +120,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				90128C722DD58D14009AE7DD /* SwiftUISampleProject */,
 			);
 			name = SwiftUISampleProject;
 			packageProductDependencies = (
@@ -347,8 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9065A59F2B258BB200E34C10 /* Preview Assets.xcassets in Resources */,
-				9065A59C2B258BB200E34C10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,20 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				906A83B12BE1E16700F09ACE /* ImageView.swift in Sources */,
-				906A83AD2BE0DB8F00F09ACE /* Background1View.swift in Sources */,
-				906A83AB2BE0DB5500F09ACE /* BackgroundView.swift in Sources */,
-				90FA71DC2BA2919B00967686 /* CarouselView.swift in Sources */,
-				901D13FB2B384233005679AB /* CameraView.swift in Sources */,
-				901D13FE2B38440E005679AB /* CameraPreview.swift in Sources */,
-				90FA71D22B5C87FB00967686 /* APIView.swift in Sources */,
-				90C1709E2C0B0AC7007F3BEC /* SampleViewBuilderView.swift in Sources */,
-				9065A59A2B258BB100E34C10 /* SampleListView.swift in Sources */,
-				9065A5982B258BB100E34C10 /* SwiftUISampleProjectApp.swift in Sources */,
-				90FA71D42B5C893600967686 /* AdviceModel.swift in Sources */,
-				90FA71D92B5C8AF100967686 /* APIViewModel.swift in Sources */,
-				90C170A12C0C053E007F3BEC /* LayoutView.swift in Sources */,
-				906A83AF2BE0E9ED00F09ACE /* CarouselModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +339,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -538,6 +395,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -565,7 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanbantaro.SwiftUISampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -593,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanbantaro.SwiftUISampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -601,7 +459,6 @@
 		9065A5BC2B258BB200E34C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -611,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanbantaro.SwiftUISampleProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUISampleProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUISampleProject";
 			};
@@ -620,7 +477,6 @@
 		9065A5BD2B258BB200E34C10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -630,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanbantaro.SwiftUISampleProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUISampleProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUISampleProject";
 			};
@@ -639,7 +495,6 @@
 		9065A5BF2B258BB200E34C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -647,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanbantaro.SwiftUISampleProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SwiftUISampleProject;
 			};
@@ -656,7 +511,6 @@
 		9065A5C02B258BB200E34C10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -664,7 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanbantaro.SwiftUISampleProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SwiftUISampleProject;
 			};
@@ -717,7 +571,7 @@
 			repositoryURL = "https://github.com/Alamofire/Alamofire?tab=readme-ov-file";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.8.1;
+				minimumVersion = 5.10.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
