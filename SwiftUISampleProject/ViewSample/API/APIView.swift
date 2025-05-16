@@ -14,12 +14,20 @@ struct APIView: View {
     // MARK: - body
 
     var body: some View {
-        Button("アドバイスを取得する") {
-            Task.detached {
-                await self.vm.requestRandomAdvice()
+        ZStack {
+            VStack {
+                Button("アドバイスを取得する") {
+                    Task {
+                        await self.vm.getRandomAdvice()
+                    }
+                }
+                Text(self.vm.adviceText)
             }
+
+            ProgressView()
+                .progressViewStyle(.circular)
+                .opacity(vm.isLoading ? 1 : 0)
         }
-        Text(self.vm.adviceText)
     }
 }
 
