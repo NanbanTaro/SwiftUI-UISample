@@ -11,7 +11,6 @@ import SwiftUI
 struct LayoutView: View {
     var body: some View {
         HStack(spacing: 0) {
-            Rectangle()
             RadialLayout {
                 Text("A")
                     .frame(width: 40, height: 40)
@@ -39,7 +38,6 @@ struct LayoutView: View {
                     .clipShape(Capsule())
             }
             .background(.green)
-            Rectangle()
         }
     }
 }

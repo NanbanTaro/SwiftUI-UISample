@@ -26,6 +26,8 @@ struct SampleViewBuilder<Content: View>: View {
 
     @ViewBuilder let content: () -> Content
 
+    // MARK: - body
+
     var body: some View {
         VStack {
             self.content()

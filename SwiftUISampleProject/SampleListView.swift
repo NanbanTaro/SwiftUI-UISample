@@ -12,22 +12,29 @@ struct SampleListView: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink("カメラ") {
-                    CameraView()
-                }
                 NavigationLink("API") {
                     APIView()
+                }
+                NavigationLink("背景") {
+                    BackgroundView()
                 }
                 NavigationLink("カルーセル") {
                     CarouselView()
                 }
+                NavigationLink("カメラ(調整中)") {
+                    CameraView()
+                }
                 NavigationLink("イメージ") {
                     ImageView()
+                }
+                NavigationLink("Layout") {
+                    LayoutView()
                 }
                 NavigationLink("ViewBuilder") {
                     SampleViewBuilderView()
                 }
             }
+            .navigationTitle("サンプル一覧")
         }
     }
 }

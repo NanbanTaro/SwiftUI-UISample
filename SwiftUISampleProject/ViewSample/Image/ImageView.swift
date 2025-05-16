@@ -18,7 +18,7 @@ struct ImageView: View {
                     .scaledToFill()
                     .blur(radius: 16, opaque: true)
                     .frame(width: geometry.size.width, height: geometry.size.height)
-                HStack {
+                HStack(spacing: 20) {
                     Image(.sakura)
                         .resizable()
                         .scaledToFill()
@@ -26,7 +26,10 @@ struct ImageView: View {
                                height: geometry.size.width / 4)
                         .clipped()
                         .shadow(radius: 4)
-                    Text("Title")
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Sakura")
+                        Text("2024/01/01")
+                    }
                 }
             }
         }
