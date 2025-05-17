@@ -24,6 +24,9 @@ struct SampleListView: View {
                 NavigationLink("カメラ(調整中)") {
                     CameraView()
                 }
+                NavigationLink("テキストバリデーション(Combine)") {
+                    CombineView()
+                }
                 NavigationLink("イメージ") {
                     ImageView()
                 }
