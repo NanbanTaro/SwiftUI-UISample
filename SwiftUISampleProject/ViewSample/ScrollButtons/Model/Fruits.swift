@@ -13,6 +13,12 @@ enum Fruits: ScrollButtonTypes {
     case orange
     case grape
     case pineapple
+    case peach
+    case strawberry
+    case melon
+    case kiwi
+    case waterMelon
+    case cherry
 
     var name: String {
         String(describing: self).uppercased()
@@ -26,6 +32,12 @@ enum Fruits: ScrollButtonTypes {
         case .orange: "🍊"
         case .grape: "🍇"
         case .pineapple: "🍍"
+        case .peach: "🍑"
+        case .strawberry: "🍓"
+        case .melon: "🍈"
+        case .kiwi: "🥝"
+        case .waterMelon: "🍉"
+        case .cherry: "🍒"
         }
     }
 }

@@ -16,7 +16,7 @@ struct ScrollButtonsSampleView: View {
 
     var body: some View {
         VStack(spacing: 20) {
-            ScrollButtonsView(selectedTypes: $selectedType)
+            ScrollButtonsView(selectedType: $selectedType)
             Text(selectedType.icon)
                 .font(.system(size: 60))
         }

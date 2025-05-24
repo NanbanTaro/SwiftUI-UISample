@@ -11,7 +11,7 @@ import SwiftUI
 /// 横スクロールボタン
 struct ScrollButtonsView<Item: ScrollButtonTypes>: View {
     /// 選択されたタイプ
-    @Binding var selectedTypes: Item
+    @Binding var selectedType: Item
     /// アニメーション名
     @Namespace private var animation
 
@@ -23,7 +23,7 @@ struct ScrollButtonsView<Item: ScrollButtonTypes>: View {
                 ForEach(Array(Item.allCases), id: \.self) { type in
                     Button {
                         withAnimation(.smooth) {
-                            selectedTypes = type
+                            selectedType = type
                         }
                     } label: {
                         Text(type.name)
@@ -31,9 +31,9 @@ struct ScrollButtonsView<Item: ScrollButtonTypes>: View {
                             .font(.system(size: 20))
                             .padding(.horizontal, 20)
                             .frame(height: 44)
-                            .foregroundStyle(selectedTypes == type ? .white : .gray)
+                            .foregroundStyle(selectedType == type ? .white : .gray)
                             .background {
-                                if selectedTypes == type {
+                                if selectedType == type {
                                     Capsule()
                                         .fill(.blue.gradient)
                                         .matchedGeometryEffect(id: "ButtonBackground", in: animation)
@@ -42,8 +42,9 @@ struct ScrollButtonsView<Item: ScrollButtonTypes>: View {
                     }
                 }
             }
+            .padding(.horizontal, 8)
         }
-        .scrollPosition(id: .init(get: { selectedTypes }, set: { _ in }), anchor: .center)
+        .scrollPosition(id: .init(get: { selectedType }, set: { _ in }), anchor: .center)
     }
 }
 
