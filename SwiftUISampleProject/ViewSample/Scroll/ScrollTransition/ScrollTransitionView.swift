@@ -15,22 +15,22 @@ struct ScrollTransitionView: View {
     // MARK: - body
 
     var body: some View {
-        ScrollView(.horizontal) {
-            LazyHStack(spacing: 28) {
+        ScrollView(.horizontal, showsIndicators: false) {
+            LazyHStack(spacing: 0) {
                 ForEach(pictures.indices, id: \.self) { index in
+                    // pictureはFrameを指定せず
+                    // containerRelativeFrameとsafeAreaPaddingで大きさを調整
                     picture(at: index)
                         .scrollTransition(axis: .horizontal) { content, phase in
                             content
-                                .rotationEffect(.degrees(phase.value * 8))
-                                .offset(y: phase.isIdentity ? 0 : 16)
+                                .offset(y: phase.isIdentity ? 0 : 0)
                                 .rotation3DEffect(
-                                    .degrees(phase.isIdentity ? 0 : 12),
-                                    axis: (x: 1, y: 0, z: 0)
+                                    .degrees(phase.value * -12),
+                                    axis: (x: 0, y: 1, z: 0)
                                 )
                         }
                         .containerRelativeFrame(.horizontal)
                 }
-
             }
             .scrollTargetLayout()
         }
@@ -38,6 +38,9 @@ struct ScrollTransitionView: View {
         .safeAreaPadding(.horizontal, 60)
     }
 
+    /// 写真
+    /// - Parameter index: index
+    /// - Returns: 写真群からindexで指定された写真
     private func picture(at index: Int) -> some View {
         pictures[index]
             .resizable()
