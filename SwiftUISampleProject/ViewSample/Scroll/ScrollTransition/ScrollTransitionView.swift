@@ -23,7 +23,6 @@ struct ScrollTransitionView: View {
                     picture(at: index)
                         .scrollTransition(axis: .horizontal) { content, phase in
                             content
-                                .offset(y: phase.isIdentity ? 0 : 0)
                                 .rotation3DEffect(
                                     .degrees(phase.value * -12),
                                     axis: (x: 0, y: 1, z: 0)
