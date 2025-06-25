@@ -1,5 +1,5 @@
 //
-//  ImageView.swift
+//  CarPlayMusicView.swift
 //  SwiftUISampleProject
 //
 //  Created by NanbanTaro on 2024/05/01.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ImageView: View {
+struct CarPlayMusicView: View {
     var body: some View {
         GeometryReader { geometry in
             ZStack {
@@ -37,5 +37,5 @@ struct ImageView: View {
 }
 
 #Preview {
-    ImageView()
+    CarPlayMusicView()
 }

@@ -9,33 +9,18 @@
 import SwiftUI
 
 struct SampleListView: View {
+    @State private var router = NavigationRouter()
+
     var body: some View {
-        NavigationStack {
-            List {
-                NavigationLink("API") {
-                    APIView()
+        NavigationStack(path: $router.path) {
+            let list = NavigationDestination.allCases.filter { $0.isHome }
+            List(list, id: \.self) { destination in
+                Button(destination.rawValue) {
+                    router.push(destination)
                 }
-                NavigationLink("背景") {
-                    BackgroundView()
-                }
-                NavigationLink("カルーセル") {
-                    CarouselView()
-                }
-                NavigationLink("カメラ(調整中)") {
-                    CameraView()
-                }
-                NavigationLink("テキストバリデーション(Combine)") {
-                    CombineView()
-                }
-                NavigationLink("イメージ") {
-                    ImageView()
-                }
-                NavigationLink("Layout") {
-                    LayoutView()
-                }
-                NavigationLink("ViewBuilder") {
-                    SampleViewBuilderView()
-                }
+            }
+            .navigationDestination(for: NavigationDestination.self) { destination in router.destinationView(for: destination)
+                    .environment(router)
             }
             .navigationTitle("サンプル一覧")
         }

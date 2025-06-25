@@ -1,5 +1,5 @@
 //
-//  RelativDragView.swift
+//  RelativeDragView.swift
 //  SwiftUISampleProject
 //
 //  Created by NanbanTaro on 2025/06/18.
@@ -9,7 +9,7 @@
 import SwiftUI
 
 /// 相対ドラッグ
-struct RelativDragView: View {
+struct RelativeDragView: View {
     /// 相対位置
     @State private var position = CGSize.zero
     /// ドラッグのoffset
@@ -36,5 +36,5 @@ struct RelativDragView: View {
 }
 
 #Preview {
-    RelativDragView()
+    RelativeDragView()
 }
