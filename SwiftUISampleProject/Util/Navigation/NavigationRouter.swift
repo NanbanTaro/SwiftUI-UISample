@@ -54,6 +54,7 @@ final class NavigationRouter {
         case .scroll: DetailList(destination.detailDestinations)
         case .viewBuilder: DetailList(destination.detailDestinations)
         // Animation
+        case .hero: HeroView()
         case .numericText: NumericTextAnimationView()
         case .transition: TwirlTransitionView()
         // API
