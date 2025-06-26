@@ -19,7 +19,8 @@ struct SampleListView: View {
                     router.push(destination)
                 }
             }
-            .navigationDestination(for: NavigationDestination.self) { destination in router.destinationView(for: destination)
+            .navigationDestination(for: NavigationDestination.self) { destination in
+                router.destinationView(for: destination)
                     .environment(router)
             }
             .navigationTitle("サンプル一覧")

@@ -120,6 +120,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9072C0B52E0BF2B1003AC830 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				90128C722DD58D14009AE7DD /* SwiftUISampleProject */,
@@ -202,6 +203,7 @@
 			mainGroup = 9065A58B2B258BB100E34C10;
 			packageReferences = (
 				90FA71D52B5C898600967686 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9072C0B32E0BF2A0003AC830 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
 			);
 			productRefGroup = 9065A5952B258BB100E34C10 /* Products */;
 			projectDirPath = "";
@@ -275,6 +277,10 @@
 			isa = PBXTargetDependency;
 			target = 9065A5932B258BB100E34C10 /* SwiftUISampleProject */;
 			targetProxy = 9065A5AF2B258BB200E34C10 /* PBXContainerItemProxy */;
+		};
+		9072C0B52E0BF2B1003AC830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 9072C0B42E0BF2B1003AC830 /* SwiftLintBuildToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -566,6 +572,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9072C0B32E0BF2A0003AC830 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.59.1;
+			};
+		};
 		90FA71D52B5C898600967686 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire?tab=readme-ov-file";
@@ -577,6 +591,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9072C0B42E0BF2B1003AC830 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9072C0B32E0BF2A0003AC830 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
 		90FA71D62B5C898600967686 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 90FA71D52B5C898600967686 /* XCRemoteSwiftPackageReference "Alamofire" */;

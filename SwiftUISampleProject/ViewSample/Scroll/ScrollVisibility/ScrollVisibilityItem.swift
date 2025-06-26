@@ -25,7 +25,7 @@ struct ScrollVisibilityItem: View {
                     ForEach(pallet.colors, id: \.self) {color in
                         color
                             .offset(
-                                x: 0 ,
+                                x: 0,
                                 y: isShowing ? 0 : geometry.size.height
                             )
                     }

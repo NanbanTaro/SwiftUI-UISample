@@ -50,7 +50,6 @@ struct StretchyHeaderScrollView: View {
     }
 }
 
-
 #Preview {
     StretchyHeaderScrollView()
 }

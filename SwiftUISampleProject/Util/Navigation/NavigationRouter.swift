@@ -26,17 +26,17 @@ final class NavigationRouter {
     func push(_ destination: NavigationDestination) {
         path.append(destination)
     }
-    
+
     /// 1画面戻る
     func pop() {
         path.removeLast()
     }
-    
+
     /// Topに戻る
     func toRoot() {
         path.removeAll()
     }
-    
+
     /// 遷移先のViewを取得する
     /// - Parameter destination: 遷移先
     /// - Returns: 遷移先View
@@ -55,7 +55,7 @@ final class NavigationRouter {
         case .viewBuilder: DetailList(destination.detailDestinations)
         // Animation
         case .numericText: NumericTextAnimationView()
-        case .Transition: TwirlTransitionView()
+        case .transition: TwirlTransitionView()
         // API
         case .alamofire: APIView()
         // Background

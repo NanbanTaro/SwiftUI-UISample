@@ -64,13 +64,13 @@ enum NavigationDestination: String, Hashable, CaseIterable {
 
     // MARK: Animation
     case numericText
-    case Transition
+    case transition
 
     /// Animationに関連する遷移先か
     var isAnimation: Bool {
         switch self {
         case .numericText: true
-        case .Transition: true
+        case .transition: true
         default: false
         }
     }

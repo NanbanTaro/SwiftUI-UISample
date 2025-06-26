@@ -54,19 +54,19 @@ struct ScrollElementPositionView: View {
                 .offset(x: 0, y: extraContentOffset(targetPosition))
         }
     }
-    
+
     /// 透過の線形方程式
     var extraContentOpacity = LinearEquation.segmentedLinearEquation(
         fromPoint: .init(x: -20, y: 1.0),
         toPoint: .init(x: 0, y: 0)
     )
-    
+
     /// offsetの線型方程式
     var extraContentOffset = LinearEquation.segmentedLinearEquation(
         fromPoint: .init(x: -20, y: 0),
         toPoint: .init(x: 0, y: 100)
     )
-    
+
     /// 表示コンテンツ
     var extraContent: some View {
         Text("Tracked content not on screen!")
@@ -78,7 +78,7 @@ struct ScrollElementPositionView: View {
             .shadow(radius: 4)
             .padding()
     }
-    
+
     /// 線形方程式
     struct LinearEquation {
         struct Point {
@@ -105,7 +105,7 @@ struct ScrollElementPositionView: View {
             }
         }
     }
-    
+
     /// カスタムPreferenceKey
     private struct ViewOffsetKey: PreferenceKey {
         static let defaultValue: CGFloat = 0
