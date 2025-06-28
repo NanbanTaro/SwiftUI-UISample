@@ -68,7 +68,6 @@ class CameraPreviewViewModel: ObservableObject {
         videoPreviewLayer.connection?.videoRotationAngle = .pi / 2.0
         videoPreviewLayer.frame = previewView.bounds
 
-
         DispatchQueue.global(qos: .background).async {
             session.startRunning()
         }

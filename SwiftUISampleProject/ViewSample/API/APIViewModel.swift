@@ -25,7 +25,7 @@ final class APIViewModel {
     }
 
     // MARK: - Methods
-    
+
     /// ランダムアドバイスを取得する
     func getRandomAdvice() async {
         isLoading = true

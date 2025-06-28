@@ -10,7 +10,7 @@ import SwiftUI
 
 struct APIView: View {
     @State private var vm = APIViewModel()
-    
+
     // MARK: - body
 
     var body: some View {

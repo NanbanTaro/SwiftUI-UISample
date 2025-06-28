@@ -20,7 +20,7 @@ struct CarouselView: View {
     ]
 
     // MARK: - body
-    
+
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {

@@ -10,13 +10,13 @@ import SwiftUI
 
 struct ColorPallet: Identifiable {
     static let samples = [Self(), Self(), Self(), Self()]
-    
+
     /// ID
     let id: UUID
     /// 色
     let colors: [Color]
 
-    // MARK: - Initialize
+    // MARK: - Initializer
 
     init() {
         self.id = UUID()

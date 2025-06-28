@@ -1,5 +1,5 @@
 //
-//  ScrollAnimationItem.swift
+//  ScrollVisibilityItem.swift
 //  SwiftUISampleProject
 //
 //  Created by NanbanTaro on 2025/06/15.
@@ -9,7 +9,7 @@
 import SwiftUI
 
 /// スクロール表示時のアニメーションアイテム
-struct ScrollAnimationItem: View {
+struct ScrollVisibilityItem: View {
     /// パレット
     let pallet: ColorPallet
 
@@ -25,7 +25,7 @@ struct ScrollAnimationItem: View {
                     ForEach(pallet.colors, id: \.self) {color in
                         color
                             .offset(
-                                x: 0 ,
+                                x: 0,
                                 y: isShowing ? 0 : geometry.size.height
                             )
                     }
@@ -49,5 +49,5 @@ struct ScrollAnimationItem: View {
 }
 
 #Preview {
-    ScrollAnimationItem(pallet: ColorPallet())
+    ScrollVisibilityItem(pallet: ColorPallet())
 }

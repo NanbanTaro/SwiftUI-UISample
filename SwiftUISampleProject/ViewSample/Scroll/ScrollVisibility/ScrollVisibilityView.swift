@@ -1,5 +1,5 @@
 //
-//  ScrollAnimationView.swift
+//  ScrollVisibilityView.swift
 //  SwiftUISampleProject
 //
 //  Created by NanbanTaro on 2025/06/15.
@@ -9,7 +9,7 @@
 import SwiftUI
 
 /// スクロール表示時のアニメーションアイテム
-struct ScrollAnimationView: View {
+struct ScrollVisibilityView: View {
     /// パレット群
     let pallets = ColorPallet.samples
 
@@ -25,7 +25,7 @@ struct ScrollAnimationView: View {
                     Color.gray
                         .frame(height: 240)
 
-                    ScrollAnimationItem(pallet: pallet)
+                    ScrollVisibilityItem(pallet: pallet)
                         .frame(height: 80)
                 }
                 .clipShape(.rect(cornerRadius: 8))
@@ -36,5 +36,5 @@ struct ScrollAnimationView: View {
 }
 
 #Preview {
-    ScrollAnimationView()
+    ScrollVisibilityView()
 }
