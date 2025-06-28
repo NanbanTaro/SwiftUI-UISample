@@ -16,7 +16,7 @@ struct ColorPallet: Identifiable {
     /// 色
     let colors: [Color]
 
-    // MARK: - Initialize
+    // MARK: - Initializer
 
     init() {
         self.id = UUID()

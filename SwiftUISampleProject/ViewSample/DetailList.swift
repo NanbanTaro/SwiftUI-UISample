@@ -13,7 +13,7 @@ struct DetailList: View {
 
     let list: [NavigationDestination]
 
-    // MARK: - Initialize
+    // MARK: - Initializer
 
     init(_ list: [NavigationDestination]) {
         self.list = list

@@ -15,7 +15,7 @@ final class NavigationRouter {
     /// パス一覧
     var path = [NavigationDestination]()
 
-    // MARK: - Initialize
+    // MARK: - Initializer
 
     init() { }
 
