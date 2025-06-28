@@ -75,10 +75,11 @@ final class NavigationRouter {
         // Scroll
         case .carousel: CarouselView()
         case .scrollButtons: ScrollButtonsSampleView()
+        case .scrollElementPosition: ScrollElementPositionView()
+        case .scrollIndicator: ScrollIndicatorSampleView()
         case .scrollTransition: ScrollTransitionView()
         case .scrollVisibility: ScrollVisibilityView()
         case .stretchHeader: StretchyHeaderScrollView()
-        case .scrollElementPosition: ScrollElementPositionView()
         // ViewBuilder
         case .sample: SampleViewBuilderView()
         }

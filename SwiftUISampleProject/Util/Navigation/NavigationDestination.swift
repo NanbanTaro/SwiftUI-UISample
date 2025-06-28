@@ -160,6 +160,7 @@ enum NavigationDestination: String, Hashable, CaseIterable {
     case carousel
     case scrollButtons
     case scrollElementPosition
+    case scrollIndicator
     case scrollTransition
     case scrollVisibility
     case stretchHeader
@@ -170,6 +171,7 @@ enum NavigationDestination: String, Hashable, CaseIterable {
         case .carousel: true
         case .scrollButtons: true
         case .scrollElementPosition: true
+        case .scrollIndicator: true
         case .scrollTransition: true
         case .scrollVisibility: true
         case .stretchHeader: true
